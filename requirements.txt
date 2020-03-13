@@ -1,0 +1,7 @@
+discord.py==0.16.12
+datetime.py
+requests.py
+openpyxl.py
+asyncio.py
+loads.py
+json.py
