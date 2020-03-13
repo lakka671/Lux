@@ -8,6 +8,7 @@ import shutil
 import logging
 import traceback
 import configparser
+import os
 
 client = discord.Client()
 game = discord.Game("쥬키 빙구")
@@ -114,8 +115,8 @@ async def on_message(message):
                 break
             i += 1
 
-
-client.run('NjgzNjI4MTI4MDk4MTg5MzEz.XluUdg.nWQ_ydYkff8XvxSxibdXt-HyLjM')
+access_token = os.environ["BOT_TOKEN"]
+client.run('access_token')
 
 
 
